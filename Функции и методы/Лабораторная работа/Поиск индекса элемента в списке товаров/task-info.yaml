@@ -17,7 +17,7 @@ files:
           for index, current_item in enumerate(items):
               if current_item == item:
                   return index
-  - offset: 339
+  - offset: 565
     length: 53
     placeholder_text: "...  # TODO Вызовите функцию, что получить индекс товара"
     initial_state:
@@ -53,6 +53,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 12 Nov 2023 15:11:50 UTC"
+  time: "Sat, 25 Nov 2023 09:54:50 UTC"
 record: -1
 solution_hidden: true

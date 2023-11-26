@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def find_common_participants(participants1, participants2, separator=','):
           participants_list1 = participants1.split(separator)
@@ -26,10 +26,10 @@ files:
     placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
     initial_state:
       length: 65
-      offset: 156
+      offset: 433
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       participants = find_common_participants(participants_first_group, participants_second_group)
       print("Общие участники:", participants)
@@ -120,6 +120,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 12 Nov 2023 15:30:38 UTC"
+  time: "Sat, 25 Nov 2023 10:19:42 UTC"
 record: -1
 solution_hidden: true
